@@ -9,7 +9,7 @@ type RootStackParamList = {
 
 type LessonScreenRouteProp = RouteProp<RootStackParamList, 'LessonScreen'>;
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "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";
+const OPENAI_API_KEY = "";
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 
 const CATEGORIES = ["Grammar", "Vocabulary", "Pronunciation", "Sentence Structure", "Idioms", "+"];
