@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity, Keyboard
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-const API_KEY = '';
+const API_KEY = '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';
 
 type Message = {
   sender: 'user' | 'bot';
