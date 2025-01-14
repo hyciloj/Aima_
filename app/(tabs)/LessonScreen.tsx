@@ -9,7 +9,7 @@ type RootStackParamList = {
 
 type LessonScreenRouteProp = RouteProp<RootStackParamList, 'LessonScreen'>;
 
-const API_KEY_LESSON = process.env.EXPO_PUBLIC_API_KEY_LESSON;
+const API_KEY_LESSON = process.env.EXPO_PUBLIC_API_KEY_LESSON
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 
 const CATEGORIES = ["Grammar", "Vocabulary", "Pronunciation", "Sentence Structure", "Idioms", "+"];
